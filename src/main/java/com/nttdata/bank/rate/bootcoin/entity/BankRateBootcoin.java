@@ -21,7 +21,6 @@ public class BankRateBootcoin {
 	private Long idRateBootcoin;
 	private Double purchaseRate;
 	private Double sellingRate;
-	private Double amount;
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy HH:mm:ss")
 	private Date date;
 	
